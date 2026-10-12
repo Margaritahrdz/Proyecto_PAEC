@@ -1,0 +1,169 @@
+```html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAEC - Donaciones</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            color: darkslategray;
+            background-color: #f5f0f5;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            background-color: #d1cae1;
+            padding: 15px 20px;
+            gap: 15px;
+        }
+
+        .logo-cabecera {
+            width: 130px;
+            max-width: 100%;
+            height: auto;
+        }
+
+        .barra-navegacion {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .boton-nav {
+            text-decoration: none;
+            color: darkslategray;
+            background-color: beige;
+            padding: 10px 14px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .boton-nav:hover {
+            background-color: rgb(188, 140, 188);
+            color: white;
+        }
+
+        .activo {
+            background-color: #93a7a0;
+            color: white;
+            font-weight: bold;
+        }
+
+        main {
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        aside {
+            width: 25%;
+            background-color: #c4b1b1;
+            padding: 20px;
+        }
+
+        section {
+            width: 75%;
+            background-color: #badade;
+            padding: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #d1cae1;
+        }
+
+        @media (max-width: 650px) {
+            header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            main {
+                flex-direction: column;
+            }
+
+            aside, section {
+                width: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div>
+            <h1>Donaciones y suministros</h1>
+            <p>Tu ayuda puede cambiar una vida</p>
+
+            <nav class="barra-navegacion">
+                <a href="index.html" class="boton-nav">Inicio</a>
+                <a href="adopciones.html" class="boton-nav">Adopciones</a>
+                <a href="Donaciones.html" class="boton-nav activo">Donaciones</a>
+            </nav>
+        </div>
+
+        <img src="c:\Users\HP\OneDrive\Desktop\ProyectoPAEC\Imagenes\donaciones.jpe"
+             alt="Logo del proyecto"
+             class="logo-cabecera">
+    </header>
+
+    <main>
+        <aside>
+            <h2>¡Cada aporte cuenta!</h2>
+            <p>
+                Cada contribución puede mejorar la vida de una mascota.
+            </p>
+        </aside>
+
+        <section>
+            <article>
+                <h2>¿Qué puedes donar?</h2>
+
+                <ul>
+                    <li>Alimento para perros y gatos.</li>
+                    <li>Platos para comida y agua.</li>
+                    <li>Mantas y camas limpias.</li>
+                    <li>Correas y collares en buen estado.</li>
+                    <li>Productos de limpieza.</li>
+                    <li>Juguetes seguros para mascotas.</li>
+                </ul>
+
+                <h2>¿Por qué son importantes las donaciones?</h2>
+
+                <p>
+                    Los suministros ayudan a cubrir las necesidades
+                    básicas de los animales y permiten ofrecerles
+                    un ambiente limpio, seguro y cómodo.
+                </p>
+
+                <h2>¿Cómo puedes participar?</h2>
+
+                <p>
+                    Puedes organizar una colecta en tu escuela,
+                    reunir suministros en buen estado o contactar
+                    a un refugio para conocer sus necesidades.
+                </p>
+
+                <p>
+                    Antes de donar, verifica qué artículos necesita
+                    el refugio y cuáles puede recibir.
+                </p>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto PAEC | Gracias por ayudar</p>
+    </footer>
+</body>
+</html>
+```
